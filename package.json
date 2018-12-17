@@ -1,0 +1,26 @@
+{
+  "name": "wdio-example",
+  "version": "1.0.0",
+  "description": "WebDriver.IO example project",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shapovalovei/wdio-example.git"
+  },
+  "author": {
+    "name": "Softesis Inc.",
+    "email": "info@trueautomation.io",
+    "url": "http://trueautomation.io"
+  },
+  "homepage": "https://github.com/shapovalovei/wdio-example#readme",
+  "devDependencies": {
+    "wdio-mocha-framework": "^0.6.4",
+    "wdio-selenium-standalone-service": "0.0.11",
+    "webdriverio": "^4.14.0",
+    "trueautomation-helper": "^0.3.0",
+    "wdio-trueautomation-service": "^0.3.3"
+  }
+}
